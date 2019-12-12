@@ -9,7 +9,7 @@
 <html>
 <head>
 <title>OR-Tools y Mapbox</title>
-<style type="text/css"><%@ include file="estilo.css"%></style>
+<style type="text/css"><%@ include file="css/estilo.css"%></style>
 </head>
 <body bgcolor="#FFFFFF">
 <form  name="pl"  action="proceso.jsp" method="post">
@@ -19,7 +19,7 @@
 <form  name="scheduling"  action="sched.jsp" method="post">
     <input type="submit" value="Scheduling" >   
 </form>
-<form  name="mapboxCoca"  action="proceso.jsp" method="post">
+<form  name="mapboxCoca"  action="http://diazmilanromero-env.drx87ed6qr.us-east-1.elasticbeanstalk.com/" method="post">
     <input type="submit" value="Entrega de productos" >  
 </form>
 

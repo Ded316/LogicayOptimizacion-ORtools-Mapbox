@@ -25,7 +25,15 @@ and open the template in the editor.
     font-family: 'Quicksand', sans-serif;
 }
 
-
+input[type="submit"]{
+	/*border-bottom: none;*/
+	cursor: pointer;
+	background: #FF9800;
+	color: #fff;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
 /*-----------------------------------*/
 /*@charset "UTF-8";
 * {

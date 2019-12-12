@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05-dic-2019, 17:20:09
+    Author     : Daniel
+*/
+body {
+    margin: 0;
+    padding: 0;
+      }
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+      }
+
+#info {
+        display: block;
+        position: relative;
+        margin: 0px auto;
+        width: 25%;
+        padding: 5px 10px;
+        border: 0.7px solid #222;
+        border-radius: 4px;
+        font-size: 13px;
+        text-align: center;
+        color: #fff;
+        background: rgba(0,0,0,0.5); /*#fff;*/
+        font-family: "Tahoma", sans-serif;
+      }
+/*.coordinates {
+        background: rgba(0,0,0,0.5);
+        color: #fff;
+        position: absolute;
+        bottom: 40px;
+        left: 10px;
+        padding:5px 10px;
+        margin: 0;
+        font-size: 11px;
+        line-height: 18px;
+        border-radius: 3px;
+        display: none;
+    }*/
+      
+.truck {
+  /*margin: -10px -10px;*/
+    width: 55px;
+    height: 45px;
+    /*border: 0.5px solid #222;
+    border-radius: 90%;*/
+    background-image: url(img/middleTruck2.png); /*#3887be;*/         
+    pointer-events: none;
+}
+#drive {
+    display: block;
+    position: relative;
+    margin: 0px auto;
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background: #3f51b5;
+}
+
