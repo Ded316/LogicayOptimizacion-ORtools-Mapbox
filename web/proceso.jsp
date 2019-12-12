@@ -74,11 +74,12 @@
 
     %-->
    
-    <= text %>
-    
-    <form  name="f2"  action="index.jsp" method="post">
-        <input type="submit" value="Volver" >
-    </form>
+   
+        <div class="box2">
+            <form  name="f2"  action="index.jsp" method="post">
+                <input type="submit" value="Volver" >
+            </form>
+        </div>
     
     </body>
 </html>
