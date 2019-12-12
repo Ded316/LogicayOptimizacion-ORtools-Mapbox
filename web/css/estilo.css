@@ -1,0 +1,195 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-dic-2019, 17:33:09
+    Author     : Daniel
+*/
+
+
+#ORtoolTag{
+    background: white;
+    color: black;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 2.5px solid rgba(253, 228, 3, 0.1);
+    border-radius: 1.2%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/*-----------------------------------*/
+/*@charset "UTF-8";
+* {
+  font-family: "Heebo", sans-serif "微軟正黑體";
+}*/
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+nav.navbar.origin {
+  transition: 0.5s;
+}
+nav.navbar.origin a1 {
+  color: #ed1c16;
+  transition: 0.5s;
+}
+nav.navbar.origin a1:hover {
+  color: #ed1c16;
+}
+nav.navbar.origin a {
+  transition: 0.5s;
+  color: #ed1c16;
+}
+nav.navbar.origin a:hover {
+  background-color: #ed1c16;
+  color: white;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a1 {
+  color: white;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: white;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  background-color: white;
+  color: #ed1c16;
+}
+
+.hdlogo {
+  width: 50px;
+  height: 50px;
+  padding: -10px;
+}
+
+body {
+  height: 1000px;
+}
+
+header.jumbotron {
+  text-align: left;
+  background-image: url(https://i.gifer.com/KzDn.gif);
+  background-size: cover;
+  background-position: 400px -30px;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+  position: relative;
+}
+header.jumbotron .container {
+  color: white;
+  padding: 200px 10px;
+  height: 800px;
+}
+header.jumbotron .container .logo {
+  background-size: cover;
+  height: 250px;
+  filter: invert(92%) sepia(93%) saturate(0%) hue-rotate(202deg) brightness(106%) contrast(106%);
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #ed1c16;
+  color: white;
+  text-align: center;
+}
+section#section_ask .row {
+  display: flex;
+  justify-content: center;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(https://clip2art.com/images/coca-cola-clipart-black-and-white-15.png);
+  height: 350px;
+  width: 250px;
+  background-size: contain;
+  mix-blend-mode: lighten;
+  filter: invert(100%) sepia(50%) saturate(176%) hue-rotate(288deg) brightness(117%) contrast(87%);
+}
+section#section_ask h2 {
+  margin-top: 150px;
+  padding: 0px 20px;
+}
+
+section#section_about img {
+  width: 100%;
+}
+section#section_about .img_wrap {
+  height: 220px;
+  overflow: hidden;
+}
+
+section#section_story {
+  background-color: white;
+  padding: 0;
+}
+section#section_story .col-sm-5 {
+  background-image: url(https://pngimage.net/wp-content/uploads/2018/06/world-map-white-png-1.png);
+  filter: invert(20%) sepia(92%) saturate(7486%) hue-rotate(358deg) brightness(101%) contrast(86%);
+  background-size: cover;
+  height: 500px;
+}
+section#section_story .col-sm-7 {
+  text-align: center;
+}
+section#section_story .col-sm-7 i {
+  font-size: 40px;
+}
+section#section_story .col-sm-12.features {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+section#section_story .hr {
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 30%;
+}
+
+section#section_future img.owlpics {
+  width: 100%;
+  padding-bottom: 0;
+}
+section#section_future i {
+  font-size: 30px;
+}
+section#section_future .feature {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer.jumbotron {
+  color: white;
+  text-align: left;
+  background-image: url(https://i.gifer.com/KzDn.gif);
+  background-size: cover;
+  background-position: 400px 20px;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+  position: relative;
+}
+footer.jumbotron input {
+  background-color: transparent;
+  max-width: 300px;
+}
+footer.jumbotron .hr {
+  margin: 15px 5px;
+  width: 75px;
+  border: 1px solid white;
+}
